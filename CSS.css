@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#myNavbar1 ul li a {
+  color: #000;
+  font-size:13px;
+
+}
+#myNavbar1 ul li a:hover, #myNavbar ul li a.active{
+  
+  color:#0F0;
+}
+ul.dropdown-menu{
+  list-style: none;
+  width: 180px;
+  display: none;
+}
+.nav.navbar-nav > li:hover > ul.dropdown-menu{
+  display: block;
+}
+
+
+
+
+
+
+  
+  .imgg img {
+	 width: 150px;
+	 height:50PX;
+	 
+
+        } 
+
+
+  .imggf img {
+	 width: 120px;
+	 height:40PX;
+	 
+
+        } 
+
+
+
+
+
+ 
+ .padding {
+	padding: 80px 0;
+	
+}
+.padding img {
+	width: 100%;
+}
+.padding  img:hover{
+  transform: scaleX(-1);
+}
+
+
+
+
+
+.b h2{
+    font-size: 44px;
+    text-align: center;
+    font-family: Lindau;
+    color: #4b5864;
+    font-weight: 700;
+}
+
+.b p{
+	color: #818688;
+	font-size: 15px;
+	font-weight: 400;
+	line-height:21px;
+}
+
+.card{
+  transition: 0.4s ease; 
+
+  border-radius: 3px;
+}
+
+.card:hover {
+	transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.card img {
+  border-radius: 3px 3px 0 0;
+}
+
+.card-body {
+    padding: 21px;
+   
+}
+
+ 
+ 
+    
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links ul a {
+            color: #ccc;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .footer-links ul li a:hover {
+            color: #F60;
+        }
+
+        footer {
+            background: #003;
+            color: #ccc;
+            padding: 80px 0 0 0;
+            text-transform: capitalize;
+            font-size: 13px;
+            line-height: 23.4px;
+            font-family: "Open Sans",Arial,Helvetica,sans-serif;
+          
+        }
+
+
+
+            footer h5 {
+                color: #fff;
+                font-size: 19px;
+                letter-spacing: 3px;
+                margin-top: 0;
+                text-transform: uppercase;
+            }
+
+
+
+
+
+        .icons a {
+            font-size: 25px;
+            color: #fff;
+            padding: 5px;
+        }
+
+        .iconsf a {
+            font-size: 25px;
+            color: #fff;
+        }
+
+        .icons a:hover {
+            color: chocolate;
+        }
+ 
+ 
+ 
+ #sub-footer{
+	background: #003;  
+	padding:20px;
+    text-align: center;
+}
+/* footer close */
+ .scrollup i {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+}
+.scrollup {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    right: 25px;
+    bottom: 22px;
+    color: #fff;
+    background-color: #000;
+}
+.foo{
+	color: rgb(250, 178, 7);
+}
+

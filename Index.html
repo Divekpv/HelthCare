@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" type="image/png" href="Capture.JPG" />
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>HEALTHCARE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  
+  
+  
+  <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat|Patua+One" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  
+  
+      <!------moving words--->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!------moving wordsends--->  
+  
+  <style>
+
+
+#myNavbar1 ul li a {
+  color: #000;
+  font-size:13px;
+
+}
+#myNavbar1 ul li a:hover, #myNavbar ul li a.active{
+  
+  color:#0F0;
+}
+ul.dropdown-menu{
+  list-style: none;
+  width: 180px;
+  display: none;
+}
+.nav.navbar-nav > li:hover > ul.dropdown-menu{
+  display: block;
+}
+
+
+
+
+
+
+  
+  .imgg img {
+	 width: 150px;
+	 height:50PX;
+	 
+
+        } 
+
+
+  .imggf img {
+	 width: 120px;
+	 height:40PX;
+	 
+
+        } 
+
+
+
+
+
+ 
+ .padding {
+	padding: 80px 0;
+	
+}
+.padding img {
+	width: 100%;
+}
+.padding  img:hover{
+  transform: scaleX(-1);
+}
+
+
+
+
+
+.b h2{
+    font-size: 44px;
+    text-align: center;
+    font-family: Lindau;
+    color: #4b5864;
+    font-weight: 700;
+}
+
+.b p{
+	color: #818688;
+	font-size: 15px;
+	font-weight: 400;
+	line-height:21px;
+}
+
+.card{
+  transition: 0.4s ease; 
+
+  border-radius: 3px;
+}
+
+.card:hover {
+	transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.card img {
+  border-radius: 3px 3px 0 0;
+}
+
+.card-body {
+    padding: 21px;
+   
+}
+
+ 
+ 
+    
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links ul a {
+            color: #ccc;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .footer-links ul li a:hover {
+            color: #F60;
+        }
+
+        footer {
+            background: #003;
+            color: #ccc;
+            padding: 80px 0 0 0;
+            text-transform: capitalize;
+            font-size: 13px;
+            line-height: 23.4px;
+            font-family: "Open Sans",Arial,Helvetica,sans-serif;
+          
+        }
+
+
+
+            footer h5 {
+                color: #fff;
+                font-size: 19px;
+                letter-spacing: 3px;
+                margin-top: 0;
+                text-transform: uppercase;
+            }
+
+
+
+
+
+        .icons a {
+            font-size: 25px;
+            color: #fff;
+            padding: 5px;
+        }
+
+        .iconsf a {
+            font-size: 25px;
+            color: #fff;
+        }
+
+        .icons a:hover {
+            color: chocolate;
+        }
+ 
+ 
+ 
+ #sub-footer{
+	background: #003;  
+	padding:20px;
+    text-align: center;
+}
+/* footer close */
+ .scrollup i {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+}
+.scrollup {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    right: 25px;
+    bottom: 22px;
+    color: #fff;
+    background-color: #000;
+}
+.foo{
+	color: rgb(250, 178, 7);
+}
+
+
+
+  </style>
+</head>
+<body>
+
+   
+
+<!-- Navbar -->
+<nav class="navbar navbar-default" style="background-color:#FFF; padding:20px"  >
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+       <a href="#" class="imgg"><img src="Logo.JPG" alt=""></a>
+       
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar1">
+      <ul class="nav navbar-nav navbar-right">
+ <li><a href="#" class="active">HOME</a></li>     
+       <li><a href="#">ABOUT US</a></li>
+       
+         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SPECIALITIES <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">SPECIALITIES 1</a></li>
+              <li><a href="#section42">SPECIALITIES 2</a></li>
+              <li><a href="#section41">SPECIALITIES 3</a></li>
+              <li><a href="#section42">SPECIALITIES 4</a></li>
+            </ul>  
+            
+               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">DOCTERS <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">DOCTERS 1</a></li>
+              <li><a href="#section42">DOCTERS 2</a></li>
+              <li><a href="#section41">DOCTERS 3</a></li>
+              <li><a href="#section42">DOCTERS 4</a></li>
+              </ul>
+        <li><a href="#">CONTACT US</a></li>
+        
+        <l>
+          <a href="#" class="btn btn-default btn-hl
+        bg-10"+  style="background-color:#09C">
+  <span class="glyphicon glyphicon-book"  ></span> ENGLISH
+   
+</a></li>
+
+<l>
+          <a href="#" class="btn btn-default btn-hl
+        bg-10"+  style="background-color:#0cC"> BOOK AN APPOINTMENT</a>
+       
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<div class="container-fluid"   data-aos="fade-up" >
+       <div class="row " style="padding-left:40px;">
+  <h2><b>YOUR TRUSTED CLINIC FOR </b></h2> 
+  <H2><b> COMPREHENSIVE WELLNESS</b></h2>
+ 
+  </div>
+<br>
+
+
+<div class=" hidden-xs">
+ 
+<div class="container-fluid"  style=" background-image:url(back.JPG)" data-aos="fade-up">
+       <div class="row ">
+       <br>
+  <img src="Component 7.png" class="img-responsive" alt="product" style="width:100%; padding-left:25px;padding-right:25px">
+ 
+ 
+ 
+  </div></div>
+</div>
+
+ 
+ <div class="visible-xs">
+ 
+ <div class="container-fluid"   data-aos="fade-up">
+       <div class="row ">
+       <br>
+  <img src="Component 7.png" class="img-responsive" alt="product" style="width:100%; padding-left:25px;padding-right:25px">
+ 
+ <br>
+ 
+  </div></div>
+   
+   </div>
+   
+    <div class="container-fluid"  style="background-color:#09C"   >
+    <br>
+       <div class="row ">
+       
+         <div class="col-md-1"></div>
+         
+               <div class="col-md-5" data-aos="fade-up">
+                <h2 style="color:#Fff;font-family: 'Lato', sans-serif; "><b>About us<b></h2>
+              <h5 style="text-align:justify; color:#CCC"">An esteemed subsidiary of Platinum Healthcare, setting the pinnacle of unmatched healthcare excellence in the UAE. Our unwavering commitment reflects in our delivery of exceptional medical services, infused with genuine empathy. With seamless integration of U.S. healthcare standards, we ensure our patients in the UAE receive meticulously tailored treatments backed by the latest in medical technology.</h5>
+              
+              <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#0CC">Read More &raquo;</a></p>
+                        </div>
+                        
+                        
+                        
+   <div class="col-md-6"></div>
+
+                   
+        </div>
+    </div>
+    
+  
+    
+    
+<div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+ 
+   
+ <div class="carousel-inner" style="background-color:#09C;padding-left:45px; padding-right:45px"  >
+ <br><br>
+   <div class="item active" data-aos="fade-up">
+     <div class="row">
+     
+       <br>
+       <div class="col-md-1">
+        
+       </div>
+       
+       <div class="col-md-2">
+         <img src="slid1.JPG">
+       </div>
+       <div class="col-md-1">
+        
+       </div>
+       
+       <div class="col-md-2">
+         <img src="slide2.JPG">
+       </div>
+       <div class="col-md-1">
+        
+       </div>
+       
+        <div class="col-md-2">
+         <img src="slide 3.JPG">
+       </div>
+       <div class="col-md-1">
+        
+       </div>
+      
+       <div class="col-md-1"></div>
+       
+   
+      
+      <br>
+     </div>
+     
+     
+   </div>
+   <div class="item" style="background-color:#09C" data-aos="fade-up">
+      <div class="row">
+     
+       <br>
+       <div class="col-md-1">
+        
+       </div>
+       
+       <div class="col-md-2">
+         <img src="slid1.JPG">
+       </div>
+       <div class="col-md-1">
+        
+       </div>
+       
+       <div class="col-md-2">
+         <img src="slide2.JPG">
+       </div>
+       <div class="col-md-1">
+        
+       </div>
+       
+        <div class="col-md-2">
+         <img src="slide 3.JPG">
+       </div>
+       <div class="col-md-1">
+        
+       </div>
+      
+       <div class="col-md-1"></div>
+       
+     </div>
+     
+     
+   </div>
+ 
+  <br>   <br>   <br> 
+  
+ </div>
+ 
+  
+   
+   
+   
+<div class="container-fluid" style="background-color:#09C" >
+<br> <br>  
+<div class="row" style="padding:30px" data-aos="fade-up">
+ <h2 style="color:#Fff;font-family: 'Lato', sans-serif; "><b>&nbsp;&nbsp;&nbsp;About us<b> </h2>
+<div class="col-md-2" style="padding:5px" data-aos="fade-up">
+ <img src="C.JPG" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px" data-aos="fade-up">
+ <img src="Hel.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px" data-aos="fade-up">
+ <img src="Hel1.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px" data-aos="fade-up">
+ <img src="Hel2.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px" data-aos="fade-up">
+ <img src="Hel3.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px" data-aos="fade-up">
+ <img src="Hel4.jpg" class="img-responsive" >
+</div>
+
+</div>
+ <br>   <br>  
+</div>
+   
+   
+ <br>
+ 
+  <div id="section4" class="b" data-aos="fade-up">
+	<div  class="container">
+    
+   <h1 style="font-family:'Courier New', Courier, monospace"><b>Our Docters<b></h1>
+   <h6>Our experienced healthcare professionals committed to your well-being</h6>
+		<br>    
+	    <div class="row">
+	    	<div id="sec1" class="col-md-3 col-sm-3">
+	    		
+	    		<div class="card ">
+	    			<img src="dr.JPG" class="img-responsive" >
+	    			<div class="card-body">
+	                    <h4><b>Dr. Sajitha Meethal<b></h4>
+                         <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#0CC">&nbsp;&nbsp;&nbsp;General Practioner&nbsp;&nbsp;&nbsp;</a></p>
+	                 
+          <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#06F; font-size:11px">Book An Appointment</a> <a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#fff; color:#666; font-size:11px"">View Profile</a></p> 
+	                </div>
+	    		</div>
+	    	    </a>&nbsp;
+	    	</div>
+            
+	    	<div id="sec2" class="col-md-3 col-sm-3">
+	    		<div class="card">
+	    			<img src="doc2.jpg" class="img-responsive" >
+	    			<div class="card-body">
+	                    <h4><b>Dr. Prajitha Meethal<b></h4>
+                         <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#0CC">&nbsp;&nbsp;&nbsp;Dental Surgeon&nbsp;&nbsp;&nbsp;</a></p>
+	                 
+                 
+          <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#06F; font-size:11px">Book An Appointment</a> <a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#fff; color:#666; font-size:11px"">View Profile</a></p> 
+	                </div>
+	    		</div>
+	    	    </a>&nbsp;
+	    	</div>
+            
+            
+            <div id="sec3" class="col-md-3 col-sm-3">
+	    		<div class="card">
+	    			<img src="doc3.jpg" class="img-responsive" >
+	    			<div class="card-body">
+	                    <h4><b>Dr. Mohamd Khan<b></h4>
+                         <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#0CC">&nbsp;&nbsp;&nbsp;Pediatricion&nbsp;&nbsp;&nbsp;</a></p>
+	              
+          <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#06F; font-size:11px">Book An Appointment</a> <a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#fff; color:#666; font-size:11px"">View Profile</a></p> 
+	                </div>
+	    		</div>
+	    	    </a>&nbsp;
+	    	</div>
+            
+	    	<div id="sec4" class="col-md-3 col-sm-3">
+	    		<div class="card">
+	    			<img src="doc4.jpg" class="img-responsive" >
+	    			<div class="card-body">
+	                    <h4><b>Dr. Razeela Beevi<b></h4>
+                         <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#0CC">&nbsp;&nbsp;General Practioner&nbsp;&nbsp;</a></p>
+	
+                 
+          <p><a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#06F; font-size:11px">Book An Appointment</a> <a href="About.html#abt"  class="btn btn-warning" style="border-radius:5px;background-color:#fff; color:#666; font-size:11px"">View Profile</a></p> 
+	                </div>
+	    		</div>
+	    	    </a>
+	    	</div>
+	    </div>
+        </div>
+        
+          </div>  
+      
+   <br>
+      <div  class="container-fluid"   data-aos="fade-up">
+       <h1 style="font-family:'Courier New', Courier, monospace; color:#06C"><b>&nbsp;Our Video Blogs<b></h1>
+        <div  class="col-md-3">
+        
+<iframe width="300" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+</iframe>
+
+        </div>
+       <div  class="col-md-3">
+       
+<iframe width="300" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+</iframe>
+
+       </div>
+          <div  class="col-md-3">
+          
+<iframe width="300" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+</iframe>
+
+          </div> 
+           <div  class="col-md-3">
+           
+<iframe width="300" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+</iframe>
+
+           </div>
+           
+           </div>
+      <br>    
+
+<div class="container" data-aos="fade-up" >
+       
+  
+  <H2 style="color:#06F">  We cover all major health insurance policies in the UAE</h2>
+ 
+ 
+   </div>
+<br>
+   
+   
+      
+<div class="container" data-aos="fade-up" >
+
+
+
+<div class="col-md-2" style="padding:5px">
+ <img src="V1.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px">
+ <img src="V2.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px">
+<img src="V3.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px">
+ <img src="V4.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px">
+ <img src="V5.jpg" class="img-responsive" >
+</div>
+<div class="col-md-2" style="padding:5px">
+ <img src="V6.jpg" class="img-responsive" >
+</div>
+
+
+ <br>   
+</div>
+
+
+
+<div class="container" data-aos="fade-up" >
+<div  class="row">
+
+
+<div class="col-md-5"  ><br>
+ <h2 style="font-family:'Courier New', Courier, monospace;color:#06F"><b>Feel Free To Connect<b></h2>
+   <h6 >Fill Form and Contact You</h6>
+<br>        
+<form action="#" method="post">
+	
+<div class="form-group">
+
+<input type="text" class="form-control" placeholder="Enter Your Name" style="background-color:#CCC" />
+</div>
+<br>
+
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Enter Mail ID" style="background-color:#CCC" />
+</div>
+<br>
+
+<div class="form-group">
+<input type="number" class="form-control" placeholder="Enter Your Contact Number"  style="background-color:#CCC"/>
+</div>
+<br>
+
+
+
+<div class="form-group contact02">
+<textarea class="form-control" rows="6" style="width:100%;background-color:#CCC" placeholder="Type your message" ></textarea>
+
+</div>
+
+
+
+
+<div class="form-group">
+<button  type="button" class="btn btn-danger" style="border-radius:9px; background-color:#999"><label>&nbsp;&nbsp;Reset Form&nbsp;&nbsp;</label></button> &nbsp;&nbsp;<button  type="button" class="btn btn-danger" style="border-radius:9px; background-color:#069"><label>&nbsp;&nbsp;Submit&nbsp;&nbsp;</label></button>
+</div>
+
+
+</form>
+</div>
+
+
+<div class="col-md-6"  >
+<br>
+<h2 style="font-family:'Courier New', Courier, monospace;color:#06F"><b>Locate Us On Map<b></h2>
+   <h6>Our experienced healthcare professionals committed to your well-being</h6>
+<br>
+ <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.42895681232!2d75.7407733379489!3d11.255826554596446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C+Kerala!5e0!3m2!1sen!2sin!4v1545364406005" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div></center>
+</div>
+
+
+<div class="col-md-2"></div>
+</div>
+
+
+
+
+<div class="col-md-1">
+</div>
+</div></div>
+
+<br>
+       
+         
+ <footer>
+
+        <div class="container">
+            <div class="row">
+                <br><br><br /><br />
+                  <div class="col-md-3 col-sm-6 footer-iconsf" data-aos="fade-up">
+                            <div id="text-3">
+
+                                <h5 style="color:#096ab3"><b>JOIN US</b></h5>
+                               
+                                <br />
+                                <div class="imggf">
+                                    <img src="Group 39600 (1).png" alt="">
+                                </div>
+
+                                <br />
+                                <div class="icons">
+                             <h4 style="color:#096ab3">Also Find Us On</h4>
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+
+                                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="https://www.whatsapp.com/"><i class="fab fa-instagram"></i></a>
+                                </div>
+
+                            </div>
+                            <br />
+                        </div>
+                 <div class="col-md-3 col-sm-6 footer-links" data-aos="fade-up">
+                            <div id="text-5">
+                                <h5 style="color:#096ab3"><b>QUICK LINKS</b></h5>
+                                  
+                                <br />
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">Specialities</a></li>
+                                    <li><a href="#">Docters</a></li>
+                                    <li><a href="#">Contact US</a></li>
+
+                                </ul>
+                            </div>
+                            <br />
+                        </div>
+                
+                       <div class="col-md-3 col-sm-6 footer-links" data-aos="fade-up">
+                            <div id="text-5">
+                                <h5 style="color:#096ab3"><b>Specialities</b></h5>
+
+                                <br />
+                                <ul>
+                                    <li><a href="#">Clinical Physiology</a></li> 
+                                    <li><a href="#">ENT</a></li>
+                                    <li><a href="#">Family Medicine</a></li>
+                                    <li><a href="#">General Surgery</a></li>
+                                    <li><a href="#">General Medicines</a></li>
+                                    
+                                  <li><a href="#">Gastrontoology</a></li> 
+                                    
+                                    <li><a href="#">Home Care</a></li>
+
+                                </ul>
+                            </div>
+                            <br />
+                        </div>
+
+                       
+                      
+
+                <div class="col-md-3 col-sm-6" data-aos="fade-up">
+                    <div id="text-4">
+                        <H5 style="color:#096ab3"><b>CONTACT DETAILS</b> </H5>
+
+
+                        <br>
+                       <address >
+               
+                  <span><p align="justify" >Corparate Office#1008, Kerala  673571</p></span>
+                   <span><p align="justify" >Julphar Tower, Dubai</p></span><br>
+                  <i class="fas fa-phone-square" style="color:#CCC; font-size:16px">&nbsp;&nbsp;9995937146</i><br>
+                  <span><i class="fas fa-envelope-open" style="color:#CCC;font-size:16px">&nbsp;&nbsp;info@clic12.com</i></span><br>
+
+                  
+                </address>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <br /><br /><br /><br />
+
+        </div>
+
+ <div id="sub-footer" >
+      <div class="scrollup" style="display: block; ">
+          <a href="#"><i class="fa fa-chevron-up"></i></a>
+      </div>
+      
+      <span style="color:#F60">&copy;</span> Copyright@ 2024 helthcareclinic I All Rights Reserved<span style="color:#F60"> Divek</span>
+     <br><br> 
+    </div>
+
+    </footer>
+    <!-- footer close -->
+  
+
+</body>
+</html>
+<script>
+  AOS.init();
+</script>
